@@ -1,0 +1,65 @@
+{
+    "start_date": [
+        "What date should I book the environment for?",
+        "Which date are you looking to reserve?",
+        "Could you tell me the desired date for your booking?",
+        "For what date would you like the environment to be scheduled?",
+        "What is the specific date you have in mind for the reservation?"
+    ],
+    "start_time": [
+        "What time should I book the environment for?",
+        "At what time would you like the booking to begin?",
+        "Could you specify the starting time for your reservation?",
+        "What is the desired start time for the environment booking?",
+        "Please let me know the time you'd like to book your environment."
+    ],
+    "duration_hours": [
+        "How many hours will the environment booking last?",
+        "What is the expected duration of your booking in hours?",
+        "Could you please specify how many hours you'll need the environment for?",
+        "For how many hours should I reserve the environment?",
+        "What is the anticipated length of your booking in terms of hours?"
+    ],
+    "purpose": [
+        "What is the purpose of booking the environment?",
+        "Could you please specify the type of testing or deployment you plan to run?",
+        "Are you using this environment for development, QA, performance, or release validation?",
+        "Please describe briefly what this environment will be used for.",
+        "What kind of workload or project activity will take place in this environment?"
+    ],
+    "tools": [
+        "What tools do you need in the environment?",
+        "Do you require any software or hardware tools?",
+        "What tools or capabilities are required for this environment?",
+        "Please specify the tools you need for this booking."
+    ],
+    "user_name_for_booking": [
+        "Could you please provide your name for the booking?",
+        "What name should I use for the reservation?",
+        "May I have the name for this booking, please?",
+        "Under what name should I make the reservation?",
+        "Could you please tell me the name of the person making the booking?"
+    ],
+    "no_matching_environments": "I couldn't find any environments matching your requirements. Please try the following suggestions:\n- Reducing the required capacity\n- Checking different dates or times",
+    "no_available_times": "The matching environments are not available at your requested time. Would you like to:\n- See alternative time slots\n- Check similar environments\n- Try a different date or time",
+    "booking_error": "I couldn't complete the booking. This might be because:\n- The environment was just booked by someone else\n- There was a system error\nWould you like to try booking a different environment?",
+    "end_time": [
+        "What time will the booking end?",
+        "What is the expected end time for your booking?",
+        "Could you please specify the time your booking will conclude?",
+        "At what time should the environment reservation end?",
+        "What is the anticipated finish time for your booking?"
+    ],
+    "environment_type": [
+        "What type of environment are you looking for?",
+        "Is there a specific kind of environment you need (e.g., dev, qa, release, performance, preprod)?",
+        "What kind of environment would be most suitable for your needs?",
+        "Are you looking for a particular style or setup of environment?",
+        "Do you have a preference for the type of environment?"
+    ],
+    "location": [
+        "Which region or data center should the environment be hosted in?",
+        "Do you prefer on-premise or cloud deployment for this environment?",
+        "Where should I provision the environment (e.g., AWS, Azure, or on-site)?"
+    ]
+}

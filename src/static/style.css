@@ -1,0 +1,152 @@
+/* === GLOBAL === */
+body {
+    margin: 0 !important;
+    font-family: 'Poppins', sans-serif !important;
+    background: linear-gradient(135deg, #0a0f24, #10182f, #0c1229) !important; /* Deep midnight blues */
+    height: 100vh !important;
+    overflow: hidden !important;
+    color: #e0e8ff !important;
+}
+
+/* === CHAT CONTAINER === */
+.chat-container {
+    width: 100% !important;
+    max-width: 750px !important;
+    margin: 40px auto !important;
+    background: #0f172a !important; /* Deep navy */
+    border-radius: 20px !important;
+    box-shadow: 0px 8px 35px rgba(0, 173, 255, 0.25) !important; /* neon glow */
+    display: flex !important;
+    flex-direction: column !important;
+    height: 85vh !important;
+    border: 1px solid rgba(0, 174, 255, 0.25) !important;
+}
+
+/* === HEADER === */
+.chat-header {
+    background: rgba(0, 153, 255, 0.15) !important;
+    backdrop-filter: blur(10px) !important;
+    color: #80d4ff !important;
+    padding: 20px 18px !important;
+    border-radius: 20px 20px 0 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative !important;
+    border-bottom: 1px solid rgba(0, 174, 255, 0.3) !important;
+}
+
+.chat-header h4 {
+    margin: 0 !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 8px rgba(0, 174, 255, 0.7) !important;
+}
+
+.reset-chat-btn {
+    position: absolute !important;
+    right: 20px !important;
+    top: 16px !important;
+    color: #36c3ff !important;
+    font-size: 20px !important;
+    opacity: 0.75 !important;
+    text-shadow: 0px 0px 12px rgba(0, 174, 255, 0.8) !important;
+}
+
+.reset-chat-btn:hover {
+    opacity: 1 !important;
+}
+
+/* === CHAT BODY === */
+.chat-body {
+    flex: 1 !important;
+    padding: 22px !important;
+    overflow-y: auto !important;
+    background: #0f172a !important;
+}
+
+/* === MESSAGE BLOCK === */
+.message {
+    display: flex !important;
+    margin-bottom: 18px !important;
+    align-items: flex-start !important;
+}
+
+.message-icon img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    margin-right: 12px !important;
+}
+
+/* === AI MESSAGE === */
+.agent-message .message-content {
+    background: rgba(0, 153, 255, 0.15) !important;
+    color: #bde8ff !important;
+    padding: 12px 16px !important;
+    border-radius: 14px !important;
+    max-width: 70% !important;
+    border: 1px solid rgba(0, 174, 255, 0.4) !important;
+    box-shadow: 0 0 12px rgba(0, 153, 255, 0.35) !important;
+}
+
+/* === USER MESSAGE === */
+.user-message {
+    flex-direction: row-reverse !important;
+}
+
+.user-message .message-content {
+    background: rgba(0, 255, 200, 0.15) !important;
+    color: #adffe8 !important;
+    padding: 12px 16px !important;
+    border-radius: 14px !important;
+    max-width: 70% !important;
+    border: 1px solid rgba(0, 255, 200, 0.4) !important;
+    box-shadow: 0 0 12px rgba(0, 255, 200, 0.3) !important;
+}
+
+.user-message .message-icon {
+    margin-left: 12px !important;
+    margin-right: 0 !important;
+}
+
+/* === INPUT AREA === */
+.input-area {
+    padding: 16px !important;
+    background: #0f172a !important;
+    border-radius: 0 0 20px 20px !important;
+    border-top: 1px solid rgba(0, 174, 255, 0.25) !important;
+}
+
+/* Input Field */
+.input-area input {
+    border-radius: 12px !important;
+    border: 1px solid rgba(0, 174, 255, 0.3) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: #d5e9ff !important;
+}
+
+.input-area input::placeholder {
+    color: #7ea4c7 !important;
+}
+
+.input-area input:focus {
+    outline: none !important;
+    border-color: #00aaff !important;
+    box-shadow: 0 0 15px rgba(0, 174, 255, 0.5) !important;
+}
+
+/* SEND BUTTON */
+button.btn-primary {
+    background: linear-gradient(135deg, #00aaff, #0077cc) !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 8px 20px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 0 12px rgba(0, 174, 255, 0.6) !important;
+    color: white !important;
+}
+
+button.btn-primary:hover {
+    background: linear-gradient(135deg, #00ccff, #0099ff) !important;
+    box-shadow: 0 0 15px rgba(0, 200, 255, 0.9) !important;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dev",
+    "purpose": "Unit Testing",
+    "tools": ["CI/CD Pipeline", "Debug Logs", "Feature Flags"]
+  },
+  {
+    "id": 2,
+    "name": "QA",
+    "purpose": "Functional Regression and system testing",
+    "tools": ["Automation Suite", "Mock APIs", "Test Data Generator"]
+  },
+  {
+    "id": 3,
+    "name": "Release",
+    "purpose": "Release Validation",
+    "tools": ["Staging APIs", "Load Test Setup"]
+  },
+  {
+    "id": 4,
+    "name": "Performance",
+    "purpose": "Performance Testing",
+    "tools": ["JMeter", "LoadRunner", "Grafana Dashboards"]
+  },
+  {
+    "id": 5,
+    "name": "Preprod",
+    "purpose": "Pre-production",
+    "tools": ["Production-like Data", "Monitoring", "Alerting"]
+  },
+  {
+    "id": 6,
+    "name": "UAT",
+    "purpose": "User acceptance",
+    "tools": ["User Data", "FullStory", "Screen Recording"]
+  },
+  {
+    "id": 7,
+    "name": "sandbox",
+    "purpose": "for experimentation and trying new ideas",
+    "tools": ["Kubernetes", "Pipeline", "logging"]
+  }
+]
