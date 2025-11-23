@@ -120,18 +120,30 @@ uv run run.py
 ```
 src/
   booking_agent/
-    tools/
     schemas.py
-    agent.py
-    state_machine.py
-static/
-  style.css
-  script.js
-templates/
-  index.html
+    conditions.py
+    nodes.py
+    prompt_config.py
+    workflow.py
+  mock_apis/
+    booking_services.py
+    environment_services.py
+  static/
+    style.css
+  templates/
+   index.html
+   app.py
+   config.py
+   helper.py
+   .env-example
 data/
   environments.json
   bookings.json
+  clarification_messages.json
+docs/
+logs/
+requirements.txt
+run.py
 ```
 
 ## Roadmap / Future Improvements
