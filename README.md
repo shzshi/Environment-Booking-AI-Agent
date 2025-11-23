@@ -94,22 +94,30 @@ Low-level tool that actually writes bookings into storage (JSON file).
 
 ## ⚙️ Local Development (via uv)
 
-(brief as requested)
-
 1. Install uv
+
+```
 pip install uv
+```
 
 2. Create environment
+```
 uv venv
 source .venv/bin/activate
+```
 
 3. Install dependencies
+```
 uv pip install -r requirements.txt
+```
 
 4. Run the app
+```
 uv run run.py
+```
 
 ## 📂 Project Structure
+```
 src/
   booking_agent/
     tools/
@@ -124,6 +132,7 @@ templates/
 data/
   environments.json
   bookings.json
+```
 
 ## Roadmap / Future Improvements
 
@@ -137,9 +146,13 @@ data/
 ### Contributing
 
 I welcome contributions!
+
 Please fork the repository
+
 Create a feature branch (git checkout -b feature/your-feature)
+
 Add tests & update documentation
+
 Submit a pull request, and we’ll review ASAP
 
 ## Credits & Inspiration
