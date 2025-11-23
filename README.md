@@ -83,10 +83,6 @@ Input:
 Output:
 Booking object (or null on failure).
 
-### 5. save_bookings_tool
-
-Low-level tool that actually writes bookings into storage (JSON file).
-
 🖼️ UI Screenshots
 
 ![Chat Interface](docs/chat_ui.png)
